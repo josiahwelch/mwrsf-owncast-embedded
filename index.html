@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<h1>MwRSF Livestream</h1>
 		<title>MwRSF Livestream</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body> 
-		<iframe
-			src="https://mwrsf-streaming.tail9d3fe3.ts.net/embed/video"
-			title="livestream"
-			height="350px" width="550px"
-			referrerpolicy="origin"
-			allowfullscreen>
-		</iframe> 
-		<iframe
-			src="https://mwrsf-streaming.tail9d3fe3.ts.net/embed/chat/readwrite"
-			title="livestream"
-			height="700px" width="1100px"
-			referrerpolicy="origin"
-			allowfullscreen>
-		</iframe>
-
+		<h1>MwRSF Livestream</h1>
+		<div id="main">
+			<div id="left">
+				<iframe
+					src="https://mwrsf-streaming.tail9d3fe3.ts.net/embed/video"
+					title="livestream"
+					height="350px" width="550px"
+					referrerpolicy="origin"
+					allowfullscreen>
+				</iframe> 
+			</div>
+			<iframe
+				src="https://mwrsf-streaming.tail9d3fe3.ts.net/embed/chat/readwrite"
+				title="livestream"
+				height="700px" width="700px"
+				referrerpolicy="origin"
+				allowfullscreen>
+			</iframe>
+		</div>
 	</body>
 </html>
